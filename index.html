@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+ 
+    <head>
+	    <title>
+		First
+		</title>
+		
+		<link rel="icon" type="image/png" href="./fav.png"/>
+		<meta http-equiv='refresh' content='12320'/>
+		<style>
+		.sec{background-color:pink;color:black;font-size:15pt;text-align:center}
+        .green{background-color:yellow;color:green;font-size:15pt;font-family:courier;float:right;}
+        .just{background-color:yellow;float:left;color:Blue;font-family:courier; font-size:15pt}
+        .avo{width:1800px; height:300px}		
+        .fir{text-align:center}
+        .emo{ width:200px; height:100px;float:right; border:1px solid;overflow:hidden; }
+        .emo1{width:200px; height:100px;float:left;margin-left:-1002px;overflow:hidden; border:1px solid;}       		
+        .mid{width:500px; height:100px;float:left;margin-left:500px;border:1px outset;}
+        .in{height:100px;border:2px solid;margin-top:110px}
+		.top{font-size:20px;}
+		.navi{text:fixed;height:30px;margin-top:10px;text-align:center;background:-webkit-linear-gradient(top,blue,cyan);position:relative;z-index:9}
+		.sp{width:35px;height:15px;padding:20px;}
+		 li{list-style:none}
+		.child{position:absolute;z-index:99}
+		a{text-decoration:none}
+		</style>
+		
+		
+    </head>
+	
+	<body>
+	 
+	
+	
+	<span class='just' >---</span>
+    <div class='sec'>
+	<span style='font:30px courier'>FortknoX</span>
+    <span class='green last'>---</span>
+	</div>
+	<div class='navi' >
+	<button style='float:left' type="button" onclick="pop()" onkeypress="hid()">//</button>
+	
+	
+    <div class='child' >
+	<ul id='popp' style='float:left;margin-top:30px;margin-left:-150px;background:-webkit-linear-gradient(left,gray,white)'>
+    <li><a class='menu'  href='https://www.youtube.com'>Home</a></li>
+	<li><a class='menu'  href='#'>Profile</a></li>
+	<li><a class='menu'  href='https://www.youtube.com'>Account</a></li>
+	</ul></div>
+    	
+	<a class='top'  href='#'>Instagram</a>
+	<span class='sp'>|</span>
+	<a  class='top' href='#'>Facebook</a>
+	<span style='font-size:20px' class='sp'>|</span>
+	<a class='top'  href='#'>Youtube</a>
+	<span style='font-size:20px;padding-left:50px' ></span>
+	<a class='top'  href='#'>Current</a>
+	
+	</div>
+	<hr/>
+	<div class='fir'><a style='font-size:20px; font-family:impact' href="https://www.youtube.com" target='_blank'><abbr onclick="myFunction(this, 'red')" title='Youtube'>click it!!!</abbr></a> 
+	</div>
+	<hr/>
+	<div class='mid' >
+	<marquee direction=right behaviour=scroll scrollamount=2 ><abbr title='Chandler Bing'><img style='filter:grayscale(50%) hue-rotate(30deg);width:200px;height:80px;margin-top:10px'src='download.jfif'></abbr></marquee>
+	</div>
+	<div class='emo'>
+	<a style='font:25px courier'href=https://www.facebook.com target='_blank'><abbr title='Facebook'><img style='margin-left:-420px;margin-top:-811px'src='emoji.jpg'></abbr></img></a>
+	</div>
+	<div class='emo1'>
+	<a style='font:25px courier' href=https://www.instagram.com target='_blank'><abbr title='Instagram'><img style='margin-left:42px;margin-top:-205px'src='emoji.jpg'></abbr></img></a>
+	</div>
+	
+	<hr/>
+	<div class='in'>
+	<form action='#' method='POST'>
+	<input style='margin-top:35px;margin-left:30px' name='A' type='text' value='Default'/>
+	<button style='margin-top:36px;margin-left:30px;width:50px;height:20px' name='B' type='button' onclick='alert("Fuckk OFF")'>Click</button>
+   
+	</form>
+	<audio controls style='margin-top:-35px; margin-left:600px'>
+	<source src='ummon_hiyonat.mp3' type='audio/mpeg'>
+	</audio>
+	</div>
+	
+	<div style='margin-top:200px;text-align:center'>
+	
+	<hr/>
+	<a style="font-size:20px ;font-style:bold"  href='#' onclick="myFunction(this,'red')">About Us</a>
+	</div>
+	
+	</body>
+	
+	
+	<script>
+	function pop()
+	{
+	document.getElementById('popp').style.marginLeft="0px";
+	}
+	function hid()
+	{
+	document.getElementById('popp').style.marginLeft="-150px";
+	}
+	function myFunction(elmnt,clr) 
+	{
+    elmnt.style.color = clr; 
+    }
+	</script>
+</html>
